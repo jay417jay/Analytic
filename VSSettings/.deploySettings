@@ -40,7 +40,7 @@
       <ValueString>Add new PLC Project to existing Solution</ValueString>
     </Setting>
     <Setting Key="SolutionPath" DisplayText="SolutionPath" Category="2" Visible="true">
-      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Git]]></Value>
+      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Users\JiachyiY\Desktop\GIT]]></Value>
     </Setting>
     <Setting Key="ProjectName" DisplayText="ProjectName" Category="2" Visible="true">
       <Value IsEnum="false" Type="System.String"><![CDATA[Sample PackML_V2]]></Value>
@@ -61,7 +61,7 @@
       <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
     </Setting>
     <Setting Key="Target" DisplayText="Target" Category="3" Visible="true">
-      <Value IsEnum="false" Type="TwinCAT.RegisteredRoute"><![CDATA[10.123.1.33.1.1]]></Value>
+      <Value IsEnum="false" Type="TwinCAT.RegisteredRoute"><![CDATA[10.123.65.55.1.1]]></Value>
     </Setting>
     <Setting Key="Runtime" DisplayText="Runtime" Category="3" Visible="true">
       <Value IsEnum="false" Type="System.UInt32"><![CDATA[852]]></Value>
@@ -76,7 +76,7 @@
       <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
     </Setting>
     <Setting Key="Core_Shared" DisplayText="Core_Shared" Category="3" Visible="true">
-      <Value IsEnum="false" Type="System.UInt32"><![CDATA[6]]></Value>
+      <Value IsEnum="false" Type="System.UInt32"><![CDATA[10]]></Value>
     </Setting>
     <Setting Key="Core_Isolated" DisplayText="Core_Isolated" Category="3" Visible="true">
       <Value IsEnum="false" Type="System.UInt32"><![CDATA[2]]></Value>
@@ -88,7 +88,7 @@
       <Value IsEnum="false" Type="System.UInt32"><![CDATA[512]]></Value>
     </Setting>
     <Setting Key="TaskList" DisplayText="TaskList" Category="3" Visible="true">
-      <Value IsEnum="false" Type="System.Collections.Generic.List`1[[TwinCAT.CodeGenerator.UI.DeployWizard.ViewModel.TaskVM, TwinCAT.CodeGenerator.UI, Version=1.2.76.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3]]"><![CDATA[<?xml version="1.0" encoding="utf-8"?><ArrayOfTaskVM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><TaskVM><CycleTime>10</CycleTime><Core><CoreID>1</CoreID><Isolated>false</Isolated></Core></TaskVM><TaskVM><CycleTime>10</CycleTime><Core><CoreID>1</CoreID><Isolated>false</Isolated></Core></TaskVM></ArrayOfTaskVM>]]></Value>
+      <Value IsEnum="false" Type="System.Collections.Generic.List`1[[TwinCAT.CodeGenerator.UI.DeployWizard.ViewModel.TaskVM, TwinCAT.CodeGenerator.UI, Version=1.2.76.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3]]"><![CDATA[<?xml version="1.0" encoding="utf-8"?><ArrayOfTaskVM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><TaskVM><CycleTime>10</CycleTime><Core><CoreID>11</CoreID><Isolated>true</Isolated></Core></TaskVM><TaskVM><CycleTime>10</CycleTime><Core><CoreID>11</CoreID><Isolated>true</Isolated></Core></TaskVM></ArrayOfTaskVM>]]></Value>
     </Setting>
     <Setting Key="OverwriteTaskConfig" DisplayText="OverwriteTaskConfig" Category="3" Visible="true">
       <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
@@ -199,13 +199,13 @@
       <ValueString>TwinCAT XAE Shell (VS2022)</ValueString>
     </Setting>
     <Setting Key="Analytics.Common.InputSrcConfigurations" DisplayText="Analytics.Common.InputSrcConfigurations" Category="7" Visible="true">
-      <Value IsEnum="false" Type="TwinCAT.Analytics.CodeGenerator.PLC.Config.InputConfigurationList"><![CDATA[<?xml version="1.0" encoding="utf-8"?><InputConfigurationList><Enabled>true</Enabled><InputConfiguration><ConfigID>1</ConfigID><DisplayName>Configuration 1</DisplayName><TaskName /><Task_ms>0</Task_ms><Core>0</Core><Configurations><VISourceConfiguration><IsEmpty>false</IsEmpty><SourceName>127.0.0.1: Analytics2.0/PlcStream1 [10.00ms]</SourceName><ConfigurationName>Default</ConfigurationName><Index>1</Index><Active>true</Active><Disabled>false</Disabled><Historical>false</Historical><ParentVISourceIndex>1</ParentVISourceIndex><DataSourceTargetID>cea4d837-9818-4d4b-aa1a-37aecaf8ffd4</DataSourceTargetID><Items /></VISourceConfiguration></Configurations></InputConfiguration></InputConfigurationList>]]></Value>
+      <Value IsEnum="false" Type="TwinCAT.Analytics.CodeGenerator.PLC.Config.InputConfigurationList"><![CDATA[<?xml version="1.0" encoding="utf-8"?><InputConfigurationList><Enabled>true</Enabled><InputConfiguration><ConfigID>1</ConfigID><DisplayName>Configuration 1</DisplayName><TaskName /><Task_ms>0</Task_ms><Core>0</Core><Configurations><VISourceConfiguration><IsEmpty>false</IsEmpty><SourceName>127.0.0.1: PackMLDemo/PlcStream1 [10.00ms]</SourceName><ConfigurationName>Default</ConfigurationName><Index>1</Index><Active>true</Active><Disabled>false</Disabled><Historical>false</Historical><ParentVISourceIndex>1</ParentVISourceIndex><DataSourceTargetID>2033755b-402d-47ab-83f9-a692442c32f0</DataSourceTargetID><Items /></VISourceConfiguration></Configurations></InputConfiguration></InputConfigurationList>]]></Value>
     </Setting>
     <Setting Key="HMILanguageSettingsVisible" DisplayText="HMILanguageSettingsVisible" Category="4" Visible="false">
       <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
     </Setting>
     <Setting Key="ProjectFilePath" DisplayText="ProjectFilePath" Category="2" Visible="true">
-      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Git\AnalyticsTest\Sample PackML_V2\Sample PackML_V2.tsproj]]></Value>
+      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Users\JiachyiY\Desktop\GIT\AnalyticsTest\Sample PackML_V2\Sample PackML_V2.tsproj]]></Value>
     </Setting>
     <Setting Key="Analytics.Common.ResultInfo" DisplayText="Analytics.Common.ResultInfo" Category="8" Visible="true">
       <Value IsEnum="false" Type="TwinCAT.Analytics.CodeGenerator.AnalysisResultInfo"><![CDATA[<?xml version="1.0" encoding="utf-8"?><AnalysisResultInfo><MQTTResultBrokerSettings /><ResultTopic>Analytics/Analysis/ResultStream</ResultTopic><ResultFilePath /><ResultCycleTime>-1</ResultCycleTime><Result>None</Result><EventBased>false</EventBased><Items /></AnalysisResultInfo>]]></Value>
