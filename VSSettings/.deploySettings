@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabWizardSettings>
+  <Categories>
+    <Category Index="1" Name="Common" Visible="true" />
+    <Category Index="2" Name="Solution" Visible="true" />
+    <Category Index="3" Name="TwinCAT PLC Target" Visible="true" />
+    <Category Index="4" Name="HMI Dashboard" Visible="true" />
+    <Category Index="5" Name="IDE" Visible="true" />
+    <Category Index="6" Name="Summary" Visible="false" />
+    <Category Index="7" Name="Input Source" Visible="true" />
+    <Category Index="8" Name="Results" Visible="true" />
+  </Categories>
+  <Settings>
+    <Setting Key="CodeGenVersion" DisplayText="CodeGenVersion" Category="1" Visible="true">
+      <Value IsEnum="true" Type="TwinCAT.Analytics.CodeGenerator.PLC.AlyPLCCodeVersion"><![CDATA[Latest]]></Value>
+    </Setting>
+    <Setting Key="DashboardVersion" DisplayText="DashboardVersion" Category="4" Visible="true">
+      <Value IsEnum="false" Type="TwinCAT.CodeGenerator.UI.DeployWizard.ViewModel.AnalyticsHMICodeGenVersion"><![CDATA[<?xml version="1.0" encoding="utf-8"?><AnalyticsHMICodeGenVersion xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Version>Latest</Version><MajorVersion>2147483647</MajorVersion><MinorVersion>0</MinorVersion><Description>Version 2.0</Description></AnalyticsHMICodeGenVersion>]]></Value>
+    </Setting>
+    <Setting Key="NewTcProject" DisplayText="NewTcProject" Category="2" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+    <Setting Key="DeployMode.NewSolution_IsAvailable" DisplayText="DeployMode.NewSolution_IsAvailable" Category="2" Visible="false">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="DeployMode.AddToExistingSolution_IsAvailable" DisplayText="DeployMode.AddToExistingSolution_IsAvailable" Category="2" Visible="false">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="DeployMode.MergeToExistingSolution_IsAvailable" DisplayText="DeployMode.MergeToExistingSolution_IsAvailable" Category="2" Visible="false">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="DeployMode.Set_MergeToExistingSolution_On_Existing_Solution_On_Startup.AlwaysMerge" DisplayText="DeployMode.Set_MergeToExistingSolution_On_Existing_Solution_On_Startup.AlwaysMerge" Category="2" Visible="false">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+    <Setting Key="DeployMode.Set_MergeToExistingSolution_On_Existing_Solution_On_Startup.GotSet" DisplayText="DeployMode.Set_MergeToExistingSolution_On_Existing_Solution_On_Startup.GotSet" Category="2" Visible="false">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+    <Setting Key="DeployMode" DisplayText="DeployMode" Category="2" Visible="true">
+      <Value IsEnum="true" Type="TwinCAT.CodeGenerator.UI.DeployWizard.ViewModel.DeployMode"><![CDATA[AddToExistingSolution_NewPLC]]></Value>
+      <ValueString>Add new PLC Project to existing Solution</ValueString>
+    </Setting>
+    <Setting Key="SolutionPath" DisplayText="SolutionPath" Category="2" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Git]]></Value>
+    </Setting>
+    <Setting Key="ProjectName" DisplayText="ProjectName" Category="2" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[Sample PackML_V2]]></Value>
+    </Setting>
+    <Setting Key="SolutionName" DisplayText="SolutionName" Category="2" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[Sample PackML_V2.1]]></Value>
+    </Setting>
+    <Setting Key="PLCName" DisplayText="PLC Name" Category="2" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[AnalyticsPLC]]></Value>
+    </Setting>
+    <Setting Key="SolutionDirectoryName" DisplayText="SolutionDirectoryName" Category="2" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[AnalyticsTest]]></Value>
+    </Setting>
+    <Setting Key="CreateSubFolders" DisplayText="CreateSubFolders" Category="2" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="CreateSubFolders_IsAvailable" DisplayText="CreateSubFolders_IsAvailable" Category="2" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="Target" DisplayText="Target" Category="3" Visible="true">
+      <Value IsEnum="false" Type="TwinCAT.RegisteredRoute"><![CDATA[10.123.1.33.1.1]]></Value>
+    </Setting>
+    <Setting Key="Runtime" DisplayText="Runtime" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.UInt32"><![CDATA[852]]></Value>
+    </Setting>
+    <Setting Key="ActivateRuntime" DisplayText="ActivateRuntime" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="CreateBootproject" DisplayText="CreateBootproject" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+    <Setting Key="UTF8_Encoding" DisplayText="UTF8_Encoding" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+    <Setting Key="Core_Shared" DisplayText="Core_Shared" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.UInt32"><![CDATA[6]]></Value>
+    </Setting>
+    <Setting Key="Core_Isolated" DisplayText="Core_Isolated" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.UInt32"><![CDATA[2]]></Value>
+    </Setting>
+    <Setting Key="RouterMemory" DisplayText="RouterMemory" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.UInt32"><![CDATA[256]]></Value>
+    </Setting>
+    <Setting Key="MaxStackSize" DisplayText="MaxStackSize" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.UInt32"><![CDATA[512]]></Value>
+    </Setting>
+    <Setting Key="TaskList" DisplayText="TaskList" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.Collections.Generic.List`1[[TwinCAT.CodeGenerator.UI.DeployWizard.ViewModel.TaskVM, TwinCAT.CodeGenerator.UI, Version=1.2.76.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3]]"><![CDATA[<?xml version="1.0" encoding="utf-8"?><ArrayOfTaskVM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><TaskVM><CycleTime>10</CycleTime><Core><CoreID>1</CoreID><Isolated>false</Isolated></Core></TaskVM><TaskVM><CycleTime>10</CycleTime><Core><CoreID>1</CoreID><Isolated>false</Isolated></Core></TaskVM></ArrayOfTaskVM>]]></Value>
+    </Setting>
+    <Setting Key="OverwriteTaskConfig" DisplayText="OverwriteTaskConfig" Category="3" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="ViewOptions.UMEditorVisible" DisplayText="ViewOptions.UMEditorVisible" Category="3" Visible="false">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="ContainsHMICtrls" DisplayText="ContainsHMICtrls" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="HMIInstalled" DisplayText="HMIInstalled" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="CreateHmi" DisplayText="CreateHmi" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="CreateOnlyHMI_NoPLC" DisplayText="CreateOnlyHMI_NoPLC" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+    <Setting Key="HmiProjectName" DisplayText="HmiProjectName" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[AnalyticsHMIProject]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.DashboardLayout" DisplayText="Analytics.HMI.DashboardLayout" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[Allign Center]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.DashboardSorting" DisplayText="Analytics.HMI.DashboardSorting" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[Space Saving]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.ControlStyle" DisplayText="Analytics.HMI.ControlStyle" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[Round]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.ControlDistance" DisplayText="Analytics.HMI.ControlDistance" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[XS]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.DashboardTheme" DisplayText="Analytics.HMI.DashboardTheme" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[Shiny]]></Value>
+    </Setting>
+    <Setting Key="HMICreateStartpage" DisplayText="HMICreateStartpage" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="HMICurrentTime" DisplayText="HMICurrentTime" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="HMISelectedLanguages" DisplayText="HMISelectedLanguages" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"><![CDATA[<?xml version="1.0" encoding="utf-8"?><ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><int>0</int><int>1</int></ArrayOfInt>]]></Value>
+      <ValueString>English, German</ValueString>
+    </Setting>
+    <Setting Key="HMIDefaultLanguage" DisplayText="HMIDefaultLanguage" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[English]]></Value>
+    </Setting>
+    <Setting Key="HMITitle" DisplayText="HMITitle" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[Analytics Dashboard]]></Value>
+    </Setting>
+    <Setting Key="HMIWidth" DisplayText="HMIWidth" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Int32"><![CDATA[1920]]></Value>
+    </Setting>
+    <Setting Key="HMIHeight" DisplayText="HMIHeight" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Int32"><![CDATA[864]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.HeaderColor" DisplayText="Analytics.HMI.HeaderColor" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Drawing.Color"><![CDATA[#EF0000]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.UseColorGradient" DisplayText="Analytics.HMI.UseColorGradient" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.UseLogo" DisplayText="Analytics.HMI.UseLogo" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.LogoPath" DisplayText="Analytics.HMI.LogoPath" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Program Files (x86)\Beckhoff\TwinCAT\Functions\TE3500-Analytics-Workbench\HMI\Images\HMI_Images\Beckhoff_white.png]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.ChangeDefaultBackgroundImage" DisplayText="Analytics.HMI.ChangeDefaultBackgroundImage" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+    <Setting Key="Analytics.HMI.BackgroundImagePath" DisplayText="Analytics.HMI.BackgroundImagePath" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[]]></Value>
+    </Setting>
+    <Setting Key="HMIServerPublish" DisplayText="HMIServerPublish" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+    <Setting Key="HMIServerAddress" DisplayText="HMIServerAddress" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[localhost]]></Value>
+    </Setting>
+    <Setting Key="HMIServerPort" DisplayText="HMIServerPort" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[1020]]></Value>
+    </Setting>
+    <Setting Key="HMIServerUser" DisplayText="HMIServerUser" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[__SystemAdministrator]]></Value>
+    </Setting>
+    <Setting Key="HMIServerPassword" DisplayText="HMIServerPassword" Category="4" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[]]></Value>
+    </Setting>
+    <Setting Key="VSProgID" DisplayText="VSProgID" Category="5" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[TcXaeShell.DTE.17.0]]></Value>
+      <ValueString>TwinCAT XAE Shell (VS2022)</ValueString>
+    </Setting>
+    <Setting Key="LeaveVSOpen" DisplayText="LeaveVSOpen" Category="5" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="VSVisible" DisplayText="VSVisible" Category="5" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="UseDifferentHMIVS" DisplayText="UseDifferentHMIVS" Category="5" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+    <Setting Key="VSHMIProgId" DisplayText="VSHMIProgId" Category="5" Visible="false">
+      <Value IsEnum="false" Type="System.String"><![CDATA[TcXaeShell.DTE.17.0]]></Value>
+      <ValueString>TwinCAT XAE Shell (VS2022)</ValueString>
+    </Setting>
+    <Setting Key="Analytics.Common.InputSrcConfigurations" DisplayText="Analytics.Common.InputSrcConfigurations" Category="7" Visible="true">
+      <Value IsEnum="false" Type="TwinCAT.Analytics.CodeGenerator.PLC.Config.InputConfigurationList"><![CDATA[<?xml version="1.0" encoding="utf-8"?><InputConfigurationList><Enabled>true</Enabled><InputConfiguration><ConfigID>1</ConfigID><DisplayName>Configuration 1</DisplayName><TaskName /><Task_ms>0</Task_ms><Core>0</Core><Configurations><VISourceConfiguration><IsEmpty>false</IsEmpty><SourceName>127.0.0.1: Analytics2.0/PlcStream1 [10.00ms]</SourceName><ConfigurationName>Default</ConfigurationName><Index>1</Index><Active>true</Active><Disabled>false</Disabled><Historical>false</Historical><ParentVISourceIndex>1</ParentVISourceIndex><DataSourceTargetID>cea4d837-9818-4d4b-aa1a-37aecaf8ffd4</DataSourceTargetID><Items /></VISourceConfiguration></Configurations></InputConfiguration></InputConfigurationList>]]></Value>
+    </Setting>
+    <Setting Key="HMILanguageSettingsVisible" DisplayText="HMILanguageSettingsVisible" Category="4" Visible="false">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
+    </Setting>
+    <Setting Key="ProjectFilePath" DisplayText="ProjectFilePath" Category="2" Visible="true">
+      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Git\AnalyticsTest\Sample PackML_V2\Sample PackML_V2.tsproj]]></Value>
+    </Setting>
+    <Setting Key="Analytics.Common.ResultInfo" DisplayText="Analytics.Common.ResultInfo" Category="8" Visible="true">
+      <Value IsEnum="false" Type="TwinCAT.Analytics.CodeGenerator.AnalysisResultInfo"><![CDATA[<?xml version="1.0" encoding="utf-8"?><AnalysisResultInfo><MQTTResultBrokerSettings /><ResultTopic>Analytics/Analysis/ResultStream</ResultTopic><ResultFilePath /><ResultCycleTime>-1</ResultCycleTime><Result>None</Result><EventBased>false</EventBased><Items /></AnalysisResultInfo>]]></Value>
+    </Setting>
+    <Setting Key="OverwriteHmi" DisplayText="OverwriteHmi" Category="0" Visible="true">
+      <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>
+    </Setting>
+  </Settings>
+</TabWizardSettings>
