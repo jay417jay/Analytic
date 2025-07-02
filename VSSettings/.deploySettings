@@ -40,19 +40,19 @@
       <ValueString>Add new PLC Project to existing Solution</ValueString>
     </Setting>
     <Setting Key="SolutionPath" DisplayText="SolutionPath" Category="2" Visible="true">
-      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Users\JiachyiY\Desktop\GIT]]></Value>
+      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Users\JiachyiY\Desktop\Analytics P]]></Value>
     </Setting>
     <Setting Key="ProjectName" DisplayText="ProjectName" Category="2" Visible="true">
       <Value IsEnum="false" Type="System.String"><![CDATA[Sample PackML_V2]]></Value>
     </Setting>
     <Setting Key="SolutionName" DisplayText="SolutionName" Category="2" Visible="true">
-      <Value IsEnum="false" Type="System.String"><![CDATA[Sample PackML_V2.1]]></Value>
+      <Value IsEnum="false" Type="System.String"><![CDATA[Sample PackML_V2.2]]></Value>
     </Setting>
     <Setting Key="PLCName" DisplayText="PLC Name" Category="2" Visible="true">
       <Value IsEnum="false" Type="System.String"><![CDATA[AnalyticsPLC]]></Value>
     </Setting>
     <Setting Key="SolutionDirectoryName" DisplayText="SolutionDirectoryName" Category="2" Visible="true">
-      <Value IsEnum="false" Type="System.String"><![CDATA[AnalyticsTest]]></Value>
+      <Value IsEnum="false" Type="System.String"><![CDATA[PackML PLC AnalyticsTest 2.2]]></Value>
     </Setting>
     <Setting Key="CreateSubFolders" DisplayText="CreateSubFolders" Category="2" Visible="true">
       <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
@@ -88,7 +88,7 @@
       <Value IsEnum="false" Type="System.UInt32"><![CDATA[512]]></Value>
     </Setting>
     <Setting Key="TaskList" DisplayText="TaskList" Category="3" Visible="true">
-      <Value IsEnum="false" Type="System.Collections.Generic.List`1[[TwinCAT.CodeGenerator.UI.DeployWizard.ViewModel.TaskVM, TwinCAT.CodeGenerator.UI, Version=1.2.76.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3]]"><![CDATA[<?xml version="1.0" encoding="utf-8"?><ArrayOfTaskVM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><TaskVM><CycleTime>10</CycleTime><Core><CoreID>11</CoreID><Isolated>true</Isolated></Core></TaskVM><TaskVM><CycleTime>10</CycleTime><Core><CoreID>11</CoreID><Isolated>true</Isolated></Core></TaskVM></ArrayOfTaskVM>]]></Value>
+      <Value IsEnum="false" Type="System.Collections.Generic.List`1[[TwinCAT.CodeGenerator.UI.DeployWizard.ViewModel.TaskVM, TwinCAT.CodeGenerator.UI, Version=1.2.76.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3]]"><![CDATA[<?xml version="1.0" encoding="utf-8"?><ArrayOfTaskVM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><TaskVM><CycleTime>10</CycleTime><Core><CoreID>11</CoreID><Isolated>true</Isolated></Core></TaskVM><TaskVM><CycleTime>10</CycleTime><Core><CoreID>12</CoreID><Isolated>true</Isolated></Core></TaskVM></ArrayOfTaskVM>]]></Value>
     </Setting>
     <Setting Key="OverwriteTaskConfig" DisplayText="OverwriteTaskConfig" Category="3" Visible="true">
       <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
@@ -133,8 +133,8 @@
       <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
     </Setting>
     <Setting Key="HMISelectedLanguages" DisplayText="HMISelectedLanguages" Category="4" Visible="true">
-      <Value IsEnum="false" Type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"><![CDATA[<?xml version="1.0" encoding="utf-8"?><ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><int>0</int><int>1</int></ArrayOfInt>]]></Value>
-      <ValueString>English, German</ValueString>
+      <Value IsEnum="false" Type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"><![CDATA[<?xml version="1.0" encoding="utf-8"?><ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><int>0</int></ArrayOfInt>]]></Value>
+      <ValueString>English</ValueString>
     </Setting>
     <Setting Key="HMIDefaultLanguage" DisplayText="HMIDefaultLanguage" Category="4" Visible="true">
       <Value IsEnum="false" Type="System.String"><![CDATA[English]]></Value>
@@ -199,16 +199,16 @@
       <ValueString>TwinCAT XAE Shell (VS2022)</ValueString>
     </Setting>
     <Setting Key="Analytics.Common.InputSrcConfigurations" DisplayText="Analytics.Common.InputSrcConfigurations" Category="7" Visible="true">
-      <Value IsEnum="false" Type="TwinCAT.Analytics.CodeGenerator.PLC.Config.InputConfigurationList"><![CDATA[<?xml version="1.0" encoding="utf-8"?><InputConfigurationList><Enabled>true</Enabled><InputConfiguration><ConfigID>1</ConfigID><DisplayName>Configuration 1</DisplayName><TaskName /><Task_ms>0</Task_ms><Core>0</Core><Configurations><VISourceConfiguration><IsEmpty>false</IsEmpty><SourceName>127.0.0.1: PackMLDemo/PlcStream1 [10.00ms]</SourceName><ConfigurationName>Default</ConfigurationName><Index>1</Index><Active>true</Active><Disabled>false</Disabled><Historical>false</Historical><ParentVISourceIndex>1</ParentVISourceIndex><DataSourceTargetID>2033755b-402d-47ab-83f9-a692442c32f0</DataSourceTargetID><Items /></VISourceConfiguration></Configurations></InputConfiguration></InputConfigurationList>]]></Value>
+      <Value IsEnum="false" Type="TwinCAT.Analytics.CodeGenerator.PLC.Config.InputConfigurationList"><![CDATA[<?xml version="1.0" encoding="utf-8"?><InputConfigurationList><Enabled>true</Enabled><InputConfiguration><ConfigID>1</ConfigID><DisplayName>Configuration 1</DisplayName><TaskName /><Task_ms>0</Task_ms><Core>0</Core><Configurations><VISourceConfiguration><IsEmpty>false</IsEmpty><SourceName>127.0.0.1: PackMLDemo/PlcStream1 [10.00ms]</SourceName><ConfigurationName>Default</ConfigurationName><Index>1</Index><Active>true</Active><Disabled>false</Disabled><Historical>false</Historical><ParentVISourceIndex>1</ParentVISourceIndex><DataSourceTargetID>7749b579-c71c-4ce5-9a2a-2594d6c3741f</DataSourceTargetID><Items /></VISourceConfiguration></Configurations></InputConfiguration></InputConfigurationList>]]></Value>
     </Setting>
     <Setting Key="HMILanguageSettingsVisible" DisplayText="HMILanguageSettingsVisible" Category="4" Visible="false">
       <Value IsEnum="false" Type="System.Boolean"><![CDATA[True]]></Value>
     </Setting>
     <Setting Key="ProjectFilePath" DisplayText="ProjectFilePath" Category="2" Visible="true">
-      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Users\JiachyiY\Desktop\GIT\AnalyticsTest\Sample PackML_V2\Sample PackML_V2.tsproj]]></Value>
+      <Value IsEnum="false" Type="System.String"><![CDATA[C:\Users\JiachyiY\Desktop\Analytics P\PackML PLC AnalyticsTest 2.2\Sample PackML_V2\Sample PackML_V2.tsproj]]></Value>
     </Setting>
     <Setting Key="Analytics.Common.ResultInfo" DisplayText="Analytics.Common.ResultInfo" Category="8" Visible="true">
-      <Value IsEnum="false" Type="TwinCAT.Analytics.CodeGenerator.AnalysisResultInfo"><![CDATA[<?xml version="1.0" encoding="utf-8"?><AnalysisResultInfo><MQTTResultBrokerSettings /><ResultTopic>Analytics/Analysis/ResultStream</ResultTopic><ResultFilePath /><ResultCycleTime>-1</ResultCycleTime><Result>None</Result><EventBased>false</EventBased><Items /></AnalysisResultInfo>]]></Value>
+      <Value IsEnum="false" Type="TwinCAT.Analytics.CodeGenerator.AnalysisResultInfo"><![CDATA[<?xml version="1.0" encoding="utf-8"?><AnalysisResultInfo><MQTTResultBrokerSettings /><ResultTopic>Analytics/Analysis/ResultStream</ResultTopic><ResultFilePath /><ResultCycleTime>-1</ResultCycleTime><Result>None</Result><EventBased>false</EventBased><Items><ResultItem><Title>MeasurementMemberBase</Title><AlyElementGuid>783a1ad7-4f63-478a-bdb2-7aec49fe34a8</AlyElementGuid><NetworkID>-1</NetworkID><SubItems><ResultSubItem><Name>DataIn</Name><Type>Input</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>tTimeStart</Name><Type>Input</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>tTimeStop</Name><Type>Input</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>bEnableExecution</Name><Type>Input</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>bReset</Name><Type>Input</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>bNewResult</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>bWithinInterval</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>tCurrentTimestamp</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>tIntervalLength</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>tElapsedTime</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>tRemainingTime</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>nProducedInInterval</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>nRemainingInInterval</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>fCurrentProductivity</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>fExpectedProductivity</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem><ResultSubItem><Name>fLastFullPeriodProductivity</Name><Type>Output</Type><CodeGen_PLCName /><Active>true</Active></ResultSubItem></SubItems></ResultItem></Items></AnalysisResultInfo>]]></Value>
     </Setting>
     <Setting Key="OverwriteHmi" DisplayText="OverwriteHmi" Category="0" Visible="true">
       <Value IsEnum="false" Type="System.Boolean"><![CDATA[False]]></Value>

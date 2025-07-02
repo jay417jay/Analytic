@@ -6,7 +6,7 @@
     <Node>
       <Title>Analytics Project</Title>
       <Expanded>False</Expanded>
-      <FileName>C:\Users\JiachyiY\Desktop\GIT\Analytic\Analytics Project.tcAlyProj</FileName>
+      <FileName>C:\Users\JiachyiY\Desktop\Analytics P\Analytics PakML 2.2\Analytics Project.tcAlyProj</FileName>
       <Children>
         <Node>
           <Title>Analysis</Title>
@@ -14,42 +14,36 @@
           <FileName></FileName>
           <Children>
             <Node>
-              <Title>Network</Title>
+              <Title>OEE Status</Title>
               <Expanded>False</Expanded>
               <FileName></FileName>
               <Children>
                 <Node>
-                  <Title>PackML Overall Equipment Effectiveness (OEE)</Title>
+                  <Title>Overall Equipment Effectiveness (OEE)</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
                 </Node>
                 <Node>
-                  <Title>Production Timing Analysis 1Ch</Title>
+                  <Title>Production Mode Timing Analysis</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
                 </Node>
                 <Node>
-                  <Title>Pie Chart</Title>
+                  <Title>OEE Trend Line</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
                 </Node>
                 <Node>
-                  <Title>Threshold Classifier 1Ch</Title>
+                  <Title>Production Quantity Analysis</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
                 </Node>
                 <Node>
-                  <Title>Plastic Math Operation</Title>
-                  <Expanded>False</Expanded>
-                  <FileName></FileName>
-                  <Children />
-                </Node>
-                <Node>
-                  <Title>Preventive Maintenance Lifetime Analysis</Title>
+                  <Title>Productivity Interval</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
@@ -83,30 +77,30 @@
           <FileName></FileName>
           <Children>
             <Node>
-              <Title>Network</Title>
+              <Title>OEE Status</Title>
               <Expanded>False</Expanded>
               <FileName></FileName>
               <Children>
                 <Node>
-                  <Title>PackML Overall Equipment Effectiveness (OEE)</Title>
+                  <Title>Overall Equipment Effectiveness (OEE)</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
                 </Node>
                 <Node>
-                  <Title>Pie Chart</Title>
+                  <Title>OEE Trend Line</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
                 </Node>
                 <Node>
-                  <Title>Threshold Classifier 1Ch</Title>
+                  <Title>Production Quantity Analysis</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
                 </Node>
                 <Node>
-                  <Title>Preventive Maintenance Lifetime Analysis</Title>
+                  <Title>Productivity Interval</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
@@ -144,19 +138,43 @@
                   <Children />
                 </Node>
                 <Node>
-                  <Title>uProcessedCount</Title>
-                  <Expanded>False</Expanded>
-                  <FileName></FileName>
-                  <Children />
-                </Node>
-                <Node>
                   <Title>uDefectiveCount</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
                 </Node>
                 <Node>
-                  <Title>uMetalCount</Title>
+                  <Title>lStartTime</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>lStopTime</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>bConfigure</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>bReset</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>bTest</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>uTotalCount</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children />
